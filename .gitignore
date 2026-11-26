@@ -1,0 +1,31 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Large AI model
+backend/models/voice/model.onnx
+
+# Logs and temporary files
+*.log
+*.bak
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Local backups and test files
+backend/*backup.py
+backend/test_body.jpg
+backend/test_voice.wav
